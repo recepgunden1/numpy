@@ -1,8 +1,5 @@
 import numpy as np
-import time
 
-z1 = time.time()
-liste = np.arange(1_000_000)**100
-z2 = time.time()
+arr1 = np.array([1,2,3,4,5,6])
 
-print(z2-z1)
+print(arr1)
